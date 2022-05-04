@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Inconsolata:wght@500;600&display=swap');
+
+
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  margin: 0;
+  text-align: center;
+  color: #758d70;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.top-container {
+  background-color: #212121;
+  padding-top: 100px;
+  position: relative;
+}
+
+h1 {
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  font-family: 'Grape Nuts', cursive;
+  font-size: 7em;
+  color: #FFECA3;
+}
+
+p {
+  margin-top: 0;
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.5rem;
+}
+
+.top-container p {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Inconsolata', monospace;
+  color: #CFDDA9;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-family: 'Inconsolata', monospace;
+  color: #CFDDA9;
+  margin: 20px auto;
+}
+
+
+
+img.sunny-cloud {
+  width: 250px;
+}
+
+.sunny-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+
+
+
+img.mountain {
+  width: 100%;
+}
+
+
+.mountain {
+  padding-top: 70px;
+  margin-bottom: -140px;
+}
+
+.profile {
+  width: 30%;
+  margin: auto;
+}
+
+.profile-pic {
+  width: 50%;
+  margin-top: 30px;
+  display: block;
+  margin: auto;
+}
+
+.hello {
+  display: block;
+  width: 30%;
+  margin: 30px auto;
+}
+
+
+.skill-row {
+  text-align: left;
+  width: 50%;
+  margin: 60px auto;
+  line-height: 1.5;
+  display: inline-block;
+}
+
+.skill-row-l {
+  text-align: right;
+  width: 50%;
+  margin: 60px auto;
+  line-height: 1.5;
+  display: inline-block;
+}
+
+.data-analysis {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.web-development {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+
+.automation {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+hr {
+  width: 6%;
+  border: 0;
+  border-top: 7px solid #424f40;
+  border-style: dotted;
+  margin: 5% auto;
+}
+
+
+.middle-container {
+  padding: 100px 0 50px 0;
+  background-color: #323232;
+
+}
+
+.divider {
+  position: relative;
+  bottom: -70px;
+  width: 100%;
+}
+
+
+.bottom-container {
+  padding: 25px 0; 
+  background-color: #212121;
+}
+
+
+
+.contact-me .btn {
+  padding: 15px;
+  background-color: #212121;
+  border-radius: 5px;
+}
+
+.contact-me h3 {
+  padding: 30px;
+}
+
+.contact-me p {
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #CFDDA9;
+  font-family: 'Inconsolata', monospace;
+}
+
+a:hover {
+  color: #758d70;
+}
+
+.footer-link {
+  padding: 20px 10px;
+}
+
+.bottom-container p {
+  padding-top: 20px;
+  margin: 0 auto;
+}
