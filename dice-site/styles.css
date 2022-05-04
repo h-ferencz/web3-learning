@@ -16,7 +16,7 @@ h1 {
 .big-wrapper {
   margin: 0;
   position: absolute;
-  top: 99%;
+  bottom: -140%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -54,4 +54,8 @@ h1 {
   display: inline-block;
   width: 140px;
   margin-top: 20px;
+}
+
+.hide {
+  visibility: hidden;
 }
