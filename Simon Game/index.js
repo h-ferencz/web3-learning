@@ -20,7 +20,6 @@ $(document).on('keypress',function() {
 });
 
 
-
 // // click effect
 
 $(".btn").on("click", function(event) {
