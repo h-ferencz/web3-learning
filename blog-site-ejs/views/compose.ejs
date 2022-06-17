@@ -1,0 +1,23 @@
+<%- include("header") -%>
+
+    <h2>Compose page</h2>
+    <p>Create new blog post</p>
+    <form method="post" action="/create">
+        <div class="form-group">
+
+            <label>Type your new blog post TITLE here: </label>
+            <input class="form-control" name="newBlogTitle" type="text" placeholder="Enter title">
+
+            <label>Url of the blog post's banner image: </label>
+            <input class="form-control" name="newBlogImage" type="text" placeholder="url">
+
+
+            <label for="comment">Type your new blog post here: </label>
+            <textarea class="form-control" rows="10" name="newBlogContent"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Create</button>
+    </form>
+
+
+<%- include("footer") -%>

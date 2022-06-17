@@ -1,0 +1,31 @@
+<%- include("header") -%>
+
+    <p>
+        <%= homeStartingContent %>
+    </p>
+
+<!-- 
+    
+        let title = blogPosts[i].title;
+        let image = blogPosts[i].image;
+        let content = blogPosts[i].content; -->
+
+
+        <% for(let i=0; i < blogPosts.length; i++) { %>
+        <div class="card-deck">
+            <div class="card">
+              <img style="width: 362px; height:200px;" class="card-img-top" <%="src=" + blogPosts[i].image %> alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title"><a href="<%= blogPosts[i].url%>"><%= blogPosts[i].title.slice(0, 50) %></a></h5>
+                <p class="card-text"><%= blogPosts[i].content.slice(0, 190) %></p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+
+
+          <% } %>
+
+
+
+            <%- include("footer") -%>
