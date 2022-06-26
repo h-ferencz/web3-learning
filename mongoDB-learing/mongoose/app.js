@@ -67,16 +67,16 @@ people.save();
 //     }
 // })
 
-function printName(fruit) {
-    console.log(fruit.name);
-}
+
 
 Fruit.find(function (err, fruits) {
     if (err) {
         console.log(err);
     } else {
         mongoose.connection.close();
-        fruits.forEach(printName)
+        fruits.forEach(function printName(fruit) {
+            console.log(fruit.name);
+        })
     }
 })
 
